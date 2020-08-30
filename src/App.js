@@ -4,9 +4,10 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home"
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
 import Wrapper from "./components/Wrapper";
+import "./App.css";
 
 
 class App extends Component {
@@ -16,13 +17,15 @@ class App extends Component {
   return (
     <Router>
       <div>
-        <Header />
-            <Wrapper>
-                <Route exact path="/" component = { Home } />
-                <Route exact path="/Portfolio" component = { Portfolio } />
-                <Route exact path="/About" component = { About } />
-                <Route exact path="/Contact" component = { Contact } />
-            </Wrapper>
+        <Header/>
+      </div>
+      <div>
+        <Wrapper>
+            <Route exact path="/" component = { Home } />
+            <Route exact path="/About" component = { About } />
+            <Route exact path="/Portfolio" component = { Portfolio } />
+            <Route exact path="/Contact" component = { Contact } />
+          </Wrapper>
         <Footer />
       </div>
     </Router>
