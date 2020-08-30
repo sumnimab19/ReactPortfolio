@@ -3,7 +3,9 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1>About Me</h1>
+       <h1 class="mt-4 text-info myHeader">About Me</h1>
+                    <hr></hr>
+     
       <img 
         src="/images/myPic.jpg"
         alt="My Picture"

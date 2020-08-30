@@ -5,7 +5,7 @@ import "./style.css"
 
 function Header() {
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-expand navbar-light bg-info flex-column flex-md-row">
       <div>
         <Link className="link" to="/">Home</Link>
         <Link className="link" to="/about">About</Link>

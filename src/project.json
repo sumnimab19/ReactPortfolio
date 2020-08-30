@@ -2,9 +2,16 @@
     {
         "id": 1,
         "name": "Move Me",
-        "image": "",
-        "repo": "",
-        "url": ""
+        "image": "./images/moveme1.png",
+        "repo": "https://github.com/Dayman628/move-me",
+        "url": "https://move-me-by-glass.netlify.app"
+    },
+    {
+        "id": 1,
+        "name": "Move Me",
+        "image": "./images/booktracker.jpeg",
+        "repo": "https://github.com/sumnimab19/Library-App",
+        "url": "https://book-trackerapp.herokuapp.com"
     }
     
 ]
