@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-       <h1 class="mt-4 text-info myHeader">About Me</h1>
+       <h1 class="text-info myHeader">About Me</h1>
                     <hr></hr>
      
       <img 
@@ -19,6 +19,7 @@ function About() {
                     </p>
     </div>
   );
+
 }
 
 export default About;

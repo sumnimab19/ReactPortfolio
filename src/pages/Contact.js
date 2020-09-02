@@ -5,7 +5,7 @@ const Contact = () => {
     return (
        
             <div>
-                <h1 class="mt-4 text-info myHeader">Contact</h1>
+                <h1 class="text-info myHeader">Contact</h1>
                     <hr></hr>
                 <form class="w-75">
                     <div class="form-group">

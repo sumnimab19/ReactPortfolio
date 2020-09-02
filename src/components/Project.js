@@ -13,6 +13,7 @@ function Project(props) {
           <strong className="card-title">{props.name}</strong>
           <br />
           <a href={props.repo} class="btn btn-primary">Repo</a>
+          <a href={props.url} class="btn btn-primary">URL</a>
         </div>
 
       </div>

@@ -11,19 +11,19 @@ const Footer = () => {
         <Row className="border-top justify-content-between p-3">
             
             <Col className="p-0 d-flex justify-content-center" md={3}>
-            <p class="connect">Connect with me via</p>
+            <p class="footerText">@2020</p>
          
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/sumnima-bhandari-706765196/" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://www.linkedin.com/in/sumnima-bhandari-706765196/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square linkedin" aria-hidden="true" />
-          </a>
+          </a> */}
 
           {/* Github */}
-          <a href="https://github.com/sumnimab19" rel="noopener noreferrer" target="_blank">
+          {/* <a href="https://github.com/sumnimab19" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square github" aria-hidden="true" />
-          </a>
+          </a> */}
 
-   
+  
 
             </Col>
         </Row>

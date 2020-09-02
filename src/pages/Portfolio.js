@@ -5,14 +5,9 @@ import Project from "../components/Project"
 class Portfolio extends Component {
   render() {
     return (
-     
- <div>
-       
-         <h1 class="mt-4 pt-4 text-info myHeader">Portfolio</h1>
-     
-         <hr></hr>
-                    
-              
+      <div>
+         <h1 class="text-info myHeader">Portfolio</h1>
+         <hr></hr>  
           {projects.map(project => (
             <Project
               key={project.id}
@@ -22,13 +17,9 @@ class Portfolio extends Component {
               url={project.url}
             />
           ))}
-     
-         </div>
-  
-      
+      </div>
     );
   }
 }
-
 
 export default Portfolio;

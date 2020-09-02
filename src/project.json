@@ -8,7 +8,7 @@
     },
     {
         "id": 1,
-        "name": "Move Me",
+        "name": "Book Tracker",
         "image": "./images/booktracker.jpeg",
         "repo": "https://github.com/sumnimab19/Library-App",
         "url": "https://book-trackerapp.herokuapp.com"
