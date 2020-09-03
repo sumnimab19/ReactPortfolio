@@ -4,9 +4,12 @@ import React from 'react';
 const Contact = () => {
     return (
        
-            <div>
+            <div className="contact">
                 <h1 class="text-info myHeader">Contact</h1>
-                    <hr></hr>
+                <i class="fa fa-envelope email" aria-hidden="true"></i>sumnimabhandari@gmail.com
+                <i class="fa fa-phone phone" ></i> 320-420-3956
+                <hr></hr>
+                <div className = "myForm">
                 <form class="w-75">
                     <div class="form-group">
                         <label for="nameInput">Name </label>
@@ -20,11 +23,12 @@ const Contact = () => {
                     </div>
                     <div class="form-group">
                         <label for="messageTextAreaInput">Message </label>
-                        <textarea class="form-control" id="messageTextAreaInput" rows="5"></textarea>
+                        <textarea class="form-control" id="messageTextAreaInput" rows="5" placeholder="Enter you message here"
+                        title="Please enter your message"></textarea>
                     </div>
-                    <button type="submit" class="btn theme-submit float-right" placeholder="Enter you message here"
-                        title="Please enter your message">Submit</button>
+                    <button type="submit" class="btn theme-submit btn-info ">Submit</button>
                 </form>
+                </div>
             </div>
       
     )

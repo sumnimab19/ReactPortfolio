@@ -12,7 +12,8 @@
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-tooltip": "^4.2.9"
+    "react-tooltip": "^4.2.9",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
