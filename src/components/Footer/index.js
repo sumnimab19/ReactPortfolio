@@ -6,29 +6,15 @@ import "./style.css"
 
 const Footer = () => {
   return (
-    <footer className="mt-5">
-    <Container fluid={true}>
-        <Row className="border-top justify-content-between p-3">
-            
-            <Col className="p-0 d-flex justify-content-center" md={3}>
-            <p class="footerText">@2020</p>
-         
-          {/* LinkedIn */}
-          {/* <a href="https://www.linkedin.com/in/sumnima-bhandari-706765196/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square linkedin" aria-hidden="true" />
-          </a> */}
-
-          {/* Github */}
-          {/* <a href="https://github.com/sumnimab19" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square github" aria-hidden="true" />
-          </a> */}
-
-  
-
-            </Col>
+    
+        <Row className=" justify-content-center p-3 myFooter">
+           
+        <h5 class="footerText">Made with ❤️️ by</h5>
+        <img 
+        src="/images/myLogo.png"
+        alt="My Logo"
+        className = "myLogo"/>
         </Row>
-    </Container>
-</footer>
   )
 }
 

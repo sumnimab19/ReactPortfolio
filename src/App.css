@@ -1,7 +1,4 @@
-.myHeader {
-  font-family: 'Russo One', sans-serif;
-  text-align:center;
-}
+
 
 
 .myParagraph {
@@ -81,7 +78,8 @@
 } */
 
 body{
-  background-image: linear-gradient(to top, rgba(140,212,212,0), rgba(140,212,212,1));
+  /* background-image: linear-gradient(to top, rgba(140,212,212,0), rgba(140,212,212,1)); */
+  background: linear-gradient(to right, #e2c27c,  #7febdc,#dd8949); 
 }
 
 .contact {
@@ -151,4 +149,10 @@ body{
 
 .cardBody{
   padding-top: 0px;
+}
+
+.myHeader {
+  font-family: 'Russo One', sans-serif;
+  text-align:center;
+  color: #dd8949;
 }
