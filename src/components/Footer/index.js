@@ -6,15 +6,13 @@ import "./style.css"
 
 const Footer = () => {
   return (
-    
-        <Row className=" justify-content-center p-3 myFooter">
-           
-        <h5 class="footerText">Made with ❤️️ by</h5>
-        <img 
-        src="/images/myLogo.png"
-        alt="My Logo"
-        className = "myLogo"/>
-        </Row>
+    <Row className=" justify-content-center p-3 myFooter">
+      <h5 class="footerText">Made with ❤️️ by</h5>
+      <img 
+          src="/images/myLogo.png"
+          alt="My Logo"
+          className = "myLogo"/>
+    </Row>
   )
 }
 

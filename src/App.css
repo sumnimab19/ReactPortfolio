@@ -1,6 +1,4 @@
 
-
-
 .myParagraph {
   font-size: 17px;
   padding-top: 15px;
@@ -65,20 +63,8 @@
     text-align: center;
  }
 
-/* .wrapper {
-  background: #833ab4;  
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-  text-align: center;
- 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-} */
 
 body{
-  /* background-image: linear-gradient(to top, rgba(140,212,212,0), rgba(140,212,212,1)); */
   background: linear-gradient(to right, #e2c27c,  #7febdc,#dd8949); 
 }
 
@@ -126,7 +112,7 @@ body{
 }
 
 .description{
-  font-size: 18px;
+  font-size: 15px;
   color: rgb(47, 84, 207);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -153,6 +139,7 @@ body{
 
 .myHeader {
   font-family: 'Russo One', sans-serif;
-  text-align:center;
+  text-align: center;
   color: #dd8949;
 }
+
