@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.4ef73bc1.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.fbdbb7f1.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.fbdbb7f1.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.318f38b6.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.318f38b6.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
-    "static/js/2.e5a92394.chunk.js": "/ReactPortfolio/static/js/2.e5a92394.chunk.js",
-    "static/js/2.e5a92394.chunk.js.map": "/ReactPortfolio/static/js/2.e5a92394.chunk.js.map",
+    "static/js/2.9e28f2a7.chunk.js": "/ReactPortfolio/static/js/2.9e28f2a7.chunk.js",
+    "static/js/2.9e28f2a7.chunk.js.map": "/ReactPortfolio/static/js/2.9e28f2a7.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.b0675e6e80706a76ae346296bc78a462.js": "/ReactPortfolio/precache-manifest.b0675e6e80706a76ae346296bc78a462.js",
+    "precache-manifest.e6451dbe18f18714e021f6f732f792b1.js": "/ReactPortfolio/precache-manifest.e6451dbe18f18714e021f6f732f792b1.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
     "static/css/main.4ef73bc1.chunk.css.map": "/ReactPortfolio/static/css/main.4ef73bc1.chunk.css.map",
-    "static/js/2.e5a92394.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.e5a92394.chunk.js.LICENSE.txt"
+    "static/js/2.9e28f2a7.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.9e28f2a7.chunk.js.LICENSE.txt",
+    "static/media/myPic.jpg": "/ReactPortfolio/static/media/myPic.cf589c17.jpg",
+    "static/media/mylogo.png": "/ReactPortfolio/static/media/mylogo.1e3ddddb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad87311a.js",
-    "static/js/2.e5a92394.chunk.js",
+    "static/js/2.9e28f2a7.chunk.js",
     "static/css/main.4ef73bc1.chunk.css",
-    "static/js/main.fbdbb7f1.chunk.js"
+    "static/js/main.318f38b6.chunk.js"
   ]
 }
