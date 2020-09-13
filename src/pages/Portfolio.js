@@ -1,14 +1,16 @@
 import React, { Component } from "react";
+import Project from "../components/Project";
 import projects from "../project.json";
-import Project from "../components/Project"
+
 
 class Portfolio extends Component {
   render() {
     return (
       <div>
-         <h1 class="text-info myHeader">Portfolio</h1>
+         <h1 className="text-info myHeader">Portfolio</h1>
          <hr></hr>  
           {projects.map(project => (
+            // console.log(project.image)
             <Project
               key={project.id}
               name={project.name}
